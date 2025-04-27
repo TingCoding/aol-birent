@@ -60,16 +60,15 @@
     <nav>
         <div class="nav__header">
             <div class="nav__logo">
-                <a style="font-weight: 600" href="#">BIRENT</a>
+                <a href="#">BIRENT</a>
             </div>
             <div class="nav__menu__btn" id="menu-btn">
                 <i class="ri-menu-line"></i>
             </div>
         </div>
         <ul class="nav__links" id="nav-links">
-            <li><a href="/home">Home</a></li>
-            <li><a href="#">Rent</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/">Beranda</a></li>
+            <li><a href="#">Sewa</a></li>
             <!-- <li class="nav__links__btn">
                 <button class="btn">Sign Up</button>
             </li>
@@ -77,20 +76,20 @@
                 <button class="btn">Sign In</button>
             </li> -->
             <div>
-                <span><a href="/sign-up">Register</a></span>
+                <span><a href="/sign-up">Daftar</a></span>
             </div>
         </ul>
-        <div class="nav__btns">
+        {{-- <div class="nav__btns">
             <button class="btn btn__primary">Sign Up</button>
             <button class="btn btn__secondary">Sign In</button>
-        </div>
+        </div> --}}
     </nav>
     <header>
 
     <header>
         <h1>Rental Mobil Terbaik</h1>
     </header>
-    <a href="/add-car" style="color: white; text-decoration: none;">Add Car</a>
+    <a href="/add-car" style="color: white; text-decoration: none;">Tambah Mobil</a>
     <div class="swiper-container swiper">
         <div class="swiper-wrapper">
             @forelse ($cars as $c)

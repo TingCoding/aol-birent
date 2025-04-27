@@ -68,7 +68,7 @@
 </head>
 <body>
     <div class="register-container">
-        <a href="/home" class="back-link">&#8592;</a>
+        <a href="/" class="back-link">&#8592;</a>
         <h2>Register</h2>
         
         <!-- Perbaikan: Tambahkan action dan method -->

@@ -28,6 +28,6 @@ class RegisterController extends Controller
 
         Auth::login($user);
 
-        return redirect('/home')->with('success', 'Registrasi berhasil!');
+        return redirect('/')->with('success', 'Registrasi berhasil!');
     }
 }

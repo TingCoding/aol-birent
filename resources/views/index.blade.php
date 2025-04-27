@@ -21,9 +21,8 @@
                 </div>
             </div>
             <ul class="nav__links" id="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="/display">Rent</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="/display">Sewa</a></li>
                 <!-- <li class="nav__links__btn">
                     <button class="btn">Sign Up</button>
                 </li>
@@ -31,13 +30,13 @@
                     <button class="btn">Sign In</button>
                 </li> -->
                 <div>
-                    <span><a href="/sign-up">Register</a></span>
+                    <span><a href="/sign-up">Daftar</a></span>
                 </div>
             </ul>
-            <div class="nav__btns">
+            {{-- <div class="nav__btns">
                 <button class="btn btn__primary">Sign Up</button>
                 <button class="btn btn__secondary">Sign In</button>
-            </div>
+            </div> --}}
         </nav>
         <div class="section__container header__container" id="home">
             <div class="header__image">
@@ -55,14 +54,15 @@
     </header>
 
     <section class="section__container steps__container" id="rent">
-        <p class="section__subheader">HOW IT WORKS</p>
-        <h2 class="section__header">Rentgo following 3 working steps</h2>
+        <p class="section__subheader">BAGAIMANA CARA KERJANYA</p>
+        <h2 class="section__header">Rentgo mengikuti 3 langkah kerja</h2>
         <div class="steps__grid">
             <div class="steps__card">
                 <span><i class="ri-map-pin-fill"></i></span>
                 <h4>Pilih Lokasi</h4>
                 <p>
-                    Pilih lokasi rental yang Anda inginkan dari jaringan luas tempat penyewaan mobil kami.                </p>
+                    Pilih lokasi rental yang Anda inginkan dari jaringan luas tempat penyewaan mobil kami.
+                </p>
             </div>
 
             <div class="steps__card">
@@ -111,7 +111,7 @@ Rasakan pengalaman terbaik dengan penawaran rental kami            </h2>
                 <li>
                     <span><i class="ri-customer-service-fill"></i></span>
                     <div>
-                        <h4>Support 24/7</h4>
+                        <h4>Layanan 24/7</h4>
                         <p>
                             Tim kami yang berdedikasi tersedia 24/7 untuk membantu Anda dengan pertanyaan atau masalah apa pun, memastikan pengalaman rental yang lancar                        </p>
                     </div>
@@ -121,7 +121,7 @@ Rasakan pengalaman terbaik dengan penawaran rental kami            </h2>
     </section>
 
     <section class="section__container experience__container" id="ride">
-        <p class="section__subheader">CUSTOMER EXPERIENCE</p>
+        <p class="section__subheader">PENGALAMAN PELANGGAN</p>
         <h2 class="section__header">
             Kami memastikan pengalaman pelanggan terbaik
         </h2>
@@ -193,53 +193,36 @@ Rasakan pengalaman terbaik dengan penawaran rental kami            </h2>
                 </ul>
             </div> -->
             <div class="footer__col">
-                <h4>About RentalX</h4>
+                <h4>Tentang RentalX</h4>
                 <ul class="footer__links">
-                    <li><a href="#">Why RentalX</a></li>
-                    <li><a href="#">Our Story</a></li>
-                    <li><a href="#">Investors</a></li>
-                    <li><a href="#">Press Centers</a></li>
-                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Mengapa RentalX</a></li>
+                    <li><a href="#">Kisah Kami</a></li>
+                    <li><a href="#">Investor</a></li>
+                    <li><a href="#">Pusat Pers</a></li>
+                    <li><a href="#">Beriklan</a></li>
                 </ul>
             </div>
             <div class="footer__col">
-                <h4>Resources</h4>
+                <h4>Sumber Daya</h4>
                 <ul class="footer__links">
-                    <li><a href="#">Download</a></li>
-                    <li><a href="#">Help Centers</a></li>
-                    <li><a href="#">Guides</a></li>
-                    <li><a href="#">Partner Network</a></li>
-                    <li><a href="#">Mechanics</a></li>
-                    <li><a href="#">Developer</a></li>
+                    <li><a href="#">Unduh</a></li>
+                    <li><a href="#">Pusat Bantuan</a></li>
+                    <li><a href="#">Panduan</a></li>
+                    <li><a href="#">Jaringan Mitra</a></li>
+                    <li><a href="#">Mekanik</a></li>
+                    <li><a href="#">Pengembang</a></li>
                 </ul>
             </div>
             <div class="footer__col">
-            <h4>Extras</h4>
-            <ul class="footer__links">
-                <li><a href="#">Rental Deal</a></li>
-                <li><a href="#">Repair Shop</a></li>
-                <li><a href="#">View Booking</a></li>
-                <li><a href="#">Hire Companies</a></li>
-                <li><a href="#">New Offers</a></li>
-            </ul>
-        </div>
-        </div>
-        <div class="section__container footer__bar">
-            <h4>
-                RentalX
-            </h4>
-            <p>Copyright ⓒ 2025 Vedant Sunil Kumbharkar. All rights reserved.</p>
-            <ul class="footer__socials">
-                <li>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="ri-google-fill"></i></a>
-                </li>
-            </ul>
+                <h4>Tambahan</h4>
+                <ul class="footer__links">
+                    <li><a href="#">Penawaran Sewa</a></li>
+                    <li><a href="#">Bengkel</a></li>
+                    <li><a href="#">Lihat Pemesanan</a></li>
+                    <li><a href="#">Perusahaan Penyewaan</a></li>
+                    <li><a href="#">Penawaran Baru</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>

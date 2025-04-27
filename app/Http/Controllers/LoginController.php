@@ -22,7 +22,7 @@ class LoginController extends Controller
         // coba login
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect('/home')->with('success', 'Login berhasil!');
+            return redirect('/')->with('success', 'Login berhasil!');
         }
 
         // jika gagal

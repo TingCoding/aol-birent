@@ -70,7 +70,7 @@
     </style>
 </head>
 <body>
-    <a href="/home" class="back-link">&#8592</a>
+    <a href="/" class="back-link">&#8592</a>
     <div class="login-container">
         <h2>Login</h2>
         <form action="/sign-in1" method="POST" enctype="multipart/form-data">

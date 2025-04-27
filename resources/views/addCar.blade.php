@@ -72,32 +72,32 @@
 </head>
 <body>
     <div class="container" style="margin: 200px">
-        <h2>Add Mobil</h2>
+        <h2>Tambah Mobil</h2>
         <form action="/add-car1" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="mb-3">
-                <label for="Name">Car Name</label>
+                <label for="Name">Nama Mobil</label>
                 <input type="text" placeholder="Name" id="Name" name="Name" value="{{ old('Name') }}">
             </div>
             @error('Name')
                 <p style="color: red;">{{ $message }}</p>
             @enderror
             <div class="mb-3">
-                <label for="Price">Price</label>
+                <label for="Price">Harga</label>
                 <input type="number" placeholder="Price" id="Price" name="Price" value="{{ old('Price') }}">
             </div>
             @error('Price')
                 <p style="color: red;">{{ $message }}</p>
             @enderror
             <div class="mb-3">
-                <label for="Photo">Photo</label>
+                <label for="Photo">Foto</label>
                 <input type="file" placeholder="Photo" id="Photo" name="Photo">
             </div>
             @error('Photo')
                 <p style="color: red;">{{ $message }}</p>
             @enderror
 
-            <button type="submit">Add Car</button>
+            <button type="submit">Tambah Mobil</button>
         </form>
     </div>
 </body>
